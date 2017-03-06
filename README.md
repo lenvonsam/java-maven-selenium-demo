@@ -7,7 +7,7 @@ Just a demo for web-driver-test used by maven、java and selenium.
 - #### IDE Reqirement
 
   1. Download eclipse ide(neno better)
-  2. jdk1.7
+  2. jdk1.8
   3. maven3.3+
 
 - Selenium Maven dependence
@@ -39,7 +39,7 @@ Just a demo for web-driver-test used by maven、java and selenium.
 
   ```java
   public static void main(String[] args) {
-  		// tell application where is geckodriver
+  		// tell application where is geckodriver(absolute path!!!)
   		System.setProperty("webdriver.gecko.driver", "/Users/juny/ide/geckodriver");
 
   		// instance firefoxdriver
